@@ -6,6 +6,7 @@ import Actors from "./Actors";
 import Directors from "./Directors";
 import Movies from "./Movies";
 
+
 function App() {
   return (
     // switch looks through all of its child routes and it displays the first one whose path matches the current URL
@@ -22,7 +23,8 @@ function App() {
           <Actors />
         </Route>
         <Route path="/">
-          <Home />
+          <Home/>
+          
         </Route>
 
       </Switch>
